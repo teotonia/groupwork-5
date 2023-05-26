@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 47;
+    box-sizing: border-box;
+    
+}
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 51px 99px;
+    
+}
+h1{
+font-family: 'absolute' sans-serif;}
+.cool {
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+  }
+  
+  .cool::before {
+    content: '';
+    background-color: #4CE0D7;;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 19px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+  }
+  
+  .cool:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+.rectangle{
+    left: 37.18%;
+    right: 10%;
+    top: 28.57%;
+    bottom: 30.61%;
+    box-sizing:content-box;
+    background: #4CE0D7;
+}
+
+.header-dis {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px ;
+}
+
+.header-dis nav a{
+    padding: 15px;
+    text-decoration: none;
+   color: #262626;
+  font-family:  'Poppins' sans-serif;
+}
+.header-dis nav{
+    padding-left: 370px;
+}
+.contact {
+
+    width: 143.81px;
+    height: 35.95px;
+    left: 1098px;
+    top: 42.17px;
+    background: #4CE0D7;
+    border-radius: 40px;
+    text-decoration: none;
+    
+}
+.contact a button{
+    text-decoration: none;
+    width: 143.81px;
+    height: 35.95px;
+    left: 1098px;
+    top: 42.17px;
+    background: #4CE0D7;
+    border-radius: 40px ;
+    border: #4CE0D7; 
+}
+.search button{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background: #4CE0D7;
+    border: #4CE0D7;
+    text-decoration: none;
+}
+.none {
+    display: none;
+    width: 50px;
+    color: aliceblue;
+    border: none;
+}
+a.ex1:hover, a.ex1:active { background: #4CE0D7 ;}
+button.ex2:hover, button.ex2:active { border: solid 2px #4CE0D7 ; background: white; }
+.photo:hover + .none {
+    display: block;
+  }
+  
+/*  header end  დასასრული  */
+p{
+
+
+font-family: 'Poppins';
+font-style: normal;
+/* identical to box height */
+
+letter-spacing: 0.23em;
+
+color: #FFFFFF;
+
+}
+
+
+
