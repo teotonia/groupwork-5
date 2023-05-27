@@ -13,10 +13,14 @@
   h1{
   font-family: 'absolute' sans-serif;}
   .cool {
-    text-decoration: none;
+    text-decoration:none;
     color: #18272F;
     font-weight: 700;
     position: relative;
+    margin-right: 150px;
+  }
+  .header-dis {
+    margin-right: 10px;
   }
   
   .cool::before {
@@ -130,10 +134,10 @@ font-family:  'Poppins' sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     height: 603px;
-    width: 1239px;
+    width: 1439px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 120px;
+    
     border-radius: 10px;
   }
   .firs-section-content {
@@ -193,8 +197,9 @@ font-family:  'Poppins' sans-serif;
   /*  imagis  დასასრული  */
   
   .row {
+    margin-top: 50px;
     padding-left: 22px;
-  
+    margin-left: 150px;
     
   }
   
@@ -292,7 +297,7 @@ font-family:  'Poppins' sans-serif;
   
   }
   .topics h1 {
-    margin: 43px;
+    margin-left: 83px;
     padding-top: 18px;
     padding-left: 42px;
     width: 282px ;
