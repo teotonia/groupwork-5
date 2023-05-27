@@ -1,111 +1,110 @@
 *{
-    padding: 0;
-    margin: 47;
-    box-sizing: border-box;
-    
+  padding: 0;
+  margin: 47;
+  box-sizing: border-box;
+  
 }
 header {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 51px 99px;
-    
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 51px 99px;
+  
 }
 h1{
 font-family: 'absolute' sans-serif;}
 .cool {
-    text-decoration: none;
-    color: #18272F;
-    font-weight: 700;
-    position: relative;
-  }
-  
-  .cool::before {
-    content: '';
-    background-color: #4CE0D7;;
-    position: absolute;
-    left: 0;
-    bottom: 3px;
-    width: 100%;
-    height: 19px;
-    z-index: -1;
-    transition: all .3s ease-in-out;
-  }
-  
-  .cool:hover::before {
-    bottom: 0;
-    height: 100%;
-  }
+  text-decoration: none;
+  color: #18272F;
+  font-weight: 700;
+  position: relative;
+}
+
+.cool::before {
+  content: '';
+  background-color: #4CE0D7;;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 19px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.cool:hover::before {
+  bottom: 0;
+  height: 100%;
+}
 
 .rectangle{
-    left: 37.18%;
-    right: 10%;
-    top: 28.57%;
-    bottom: 30.61%;
-    box-sizing:content-box;
-    background: #4CE0D7;
+  left: 37.18%;
+  right: 10%;
+  top: 28.57%;
+  bottom: 30.61%;
+  box-sizing:content-box;
+  background: #4CE0D7;
 }
 
 .header-dis {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px ;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 30px ;
 }
 
 .header-dis nav a{
-    padding: 15px;
-    text-decoration: none;
-   color: #262626;
-  font-family:  'Poppins' sans-serif;
+  padding: 15px;
+  text-decoration: none;
+ color: #262626;
+font-family:  'Poppins' sans-serif;
 }
 .header-dis nav{
-    padding-left: 370px;
+  padding-left: 370px;
 }
 .contact {
 
-    width: 143.81px;
-    height: 35.95px;
-    left: 1098px;
-    top: 42.17px;
-    background: #4CE0D7;
-    border-radius: 40px;
-    text-decoration: none;
-    
+  width: 143.81px;
+  height: 35.95px;
+  left: 1098px;
+  top: 42.17px;
+  background: #4CE0D7;
+  border-radius: 40px;
+  text-decoration: none;
+  
 }
 .contact a button{
-    text-decoration: none;
-    width: 143.81px;
-    height: 35.95px;
-    left: 1098px;
-    top: 42.17px;
-    background: #4CE0D7;
-    border-radius: 40px ;
-    border: #4CE0D7; 
+  text-decoration: none;
+  width: 143.81px;
+  height: 35.95px;
+  left: 1098px;
+  top: 42.17px;
+  background: #4CE0D7;
+  border-radius: 40px ;
+  border: #4CE0D7; 
 }
 .search button{
-    height: 47px;
-    width: 47px;
-    border-radius: 50%;
-    background: #4CE0D7;
-    border: #4CE0D7;
-    text-decoration: none;
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  background: #4CE0D7;
+  border: #4CE0D7;
+  text-decoration: none;
 }
 .none {
-    display: none;
-    width: 50px;
-    color: aliceblue;
-    border: none;
+  display: none;
+  width: 50px;
+  color: aliceblue;
+  border: none;
 }
-a.ex1:hover, a.ex1:active { background: #4CE0D7 ;}
+a.ex1:hover, a.ex1:active { background: #4CE0D7 ; border-radius: 20px;}
 button.ex2:hover, button.ex2:active { border: solid 2px #4CE0D7 ; background: white; }
 .photo:hover + .none {
-    display: block;
-  }
-  
+  display: block ; border: #18272F solid  ;
+}
+
 /*  header end  დასასრული  */
 p{
-
 
 font-family: 'Poppins';
 font-style: normal;
@@ -114,8 +113,190 @@ font-style: normal;
 letter-spacing: 0.23em;
 
 color: #FFFFFF;
+}
+
+.firs-section{
+  background-image: url(images/pexels-andrea-piacquadio-994234\ 1\ \(2\).png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 603px;
+  width: 1239px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.firs-section-content {
+  
+  position: absolute;
+  top: 461px;
+  left: 169px;
+}
+.firs-section-content h1  {
+  font-family: Poppins;
+font-size: 46px;
+font-weight: 700;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Poppins;
+font-size: 46px;
+font-weight: 400;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.firs-section-content h1 span{
+
+color: #4CE0D7;
+
+}
+.firs-section-content p {
+  font-family: Poppins;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.23em;
+text-align: left;
+color: #FFFFFF;
+
+}
+.firs-section-content h3{
+  
+width: 494px;
+height: 72px;
+left: 137px;
+top: 479px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
 
 }
 
 
 
+/*  imagis  დასასრული  */
+
+.row {
+  padding-left: 22px;
+
+  
+}
+
+.column {
+  
+float: left; 
+width: 204px;
+height: 291px;
+background: #FFFFFF;
+box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+padding: 30px;
+margin: 14px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column img {
+ 
+  display: block;
+margin-left: auto;
+margin-right: auto;
+left: 12.83%;
+right: 12.83%;
+
+
+
+}
+.column h2 {
+  text-align: center;
+  margin-top: 2px;
+  padding-top: 27px;
+  
+}
+.column div a button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ text-decoration: none;
+ margin-top: 36px;
+  
+}
+.column div a {
+  text-decoration: none;
+}
+.contact1 {
+
+  width: 143.81px;
+  height: 35.95px;
+  left: 1098px;
+  top: 42.17px;
+  background: #4CE0D7;
+  border-radius: 40px;
+  text-decoration: none;
+  
+}
+.contact1 a button{
+  text-decoration: none;
+  width: 143.81px;
+  height: 35.95px;
+  left: 1098px;
+  top: 42.17px;
+  background: #4CE0D7;
+  border-radius: 40px ;
+  border: #4CE0D7; 
+}
+button.ex4:hover, button.ex4:active { border: solid 2px #4CE0D7 ; background: white; }
+.contact1 {
+  align-items: center;
+}
+.a1 img {
+margin-top: 6px;
+}
+.a2 img {
+  margin-top: -10px;
+
+}
+.a3 img {
+  margin-top: -7px;
+
+}
+.a4 img {
+  margin-top: 6px;
+
+}
+.a5 img {
+  margin-top: 9px;
+
+}
+.a6 img {
+  margin-top: -7px;
+
+}
+.topics h1 {
+  margin: 43px;
+  padding-top: 18px;
+  padding-left: 42px;
+  width: 282px ;
+  
+  width: 282px;
+  height: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+  
+
+}
+/*  topic  end  დასასრული  */
