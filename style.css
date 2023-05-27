@@ -10,6 +10,7 @@
     padding: 51px 99px;
     
   }
+.column:hover, .column:active {  transform: translateY(-30px)}
   h1{
   font-family: 'absolute' sans-serif;}
   .cool {
@@ -50,7 +51,7 @@
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    gap: 30px ;
+    gap: 14px ;
   }
   
   .header-dis nav a{
