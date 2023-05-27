@@ -7,7 +7,7 @@
 header {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 51px 99px;
+    padding: 51px 5px;
     
 }
 h1{
@@ -47,17 +47,17 @@ font-family: 'absolute' sans-serif;}
 
 .header-dis {
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
     gap: 30px ;
 }
 
 .header-dis nav a{
-    padding: 15px;
-    text-decoration: none;
-   color: #262626;
-  font-family:  'Poppins' sans-serif;
+   
+padding: 15px;
+text-decoration: none;
+color: #262626;
+font-family:  'Poppins' sans-serif;
 }
 .header-dis nav{
     padding-left: 370px;
@@ -117,5 +117,289 @@ color: #FFFFFF;
 
 }
 
+    /* Vector 2 */
+
+hr {
+height: 0px;
+width: 1300px;
+margin-left: 225.5px;
+margin-top:87.5px;
+border-radius: 0px;
+
+}
+
+hr {
+position: absolute;
+border: 1px solid #BCBCBC;
+}
+
+.latest-trend {
+height: 698px;
+width: 1300px;
+margin-left: 220px;
+margin-top: 153px;
+border-radius: 20px;
+
+}
+
+.latest-trend {
+background: #FFFFFF;
+box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+}
+
+.background {
+position: relative;    
+height: 360.3041687011719px;
+width: 1400px;
+margin-left: 50px;
+border-radius: [object Object]px;
+background-image: url(images/background.png);
+background-repeat: no-repeat;
+}
 
 
+.buttong {
+height: 37px;
+width: 235px;
+margin:50px 50px;
+border-radius: 40px;
+}
+
+.buttong {
+position: absolute;
+width: 200.95px;
+height: 36.49px;
+background: #262626;
+border-radius: 40px;
+transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+}
+
+.buttong {  
+position: absolute;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 8px;
+}
+
+.buttong:hover {
+    background-color:white;
+    color:rgb(7, 7, 7);
+}
+
+.glasses {
+display: flex;
+margin-left:100px;
+align-items: center;
+gap:60px;
+}
+
+.glassimg {    
+margin-top: 20px;
+height: 70.09033966064453px;
+width: 70.79735565185547px;
+border-radius:60px;
+
+}
+
+.glassp { 
+font-family:'Poppins';
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+width: 167px;
+height: 21px;
+color: #BCBCBC;
+}
+
+h3 {
+    display: inline;
+    margin-left: 300px;
+    width: 216px;
+    height: 23px;
+    top: 1680px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    color: #F25E5E;
+}
+
+.Moon {
+    display: flex;
+    flex-direction: column;
+}
+
+.moontext {
+position: absolute;
+width: 1044px;
+height: 36px;
+margin-left:85px;
+margin-top:40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 39px;
+color: #262626;
+}
+
+.moonp {
+position: absolute;
+width: 1033px;
+height: 73px;
+margin-left:85px;
+margin-top:100px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #262626;
+}
+
+.moondiv {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    margin-left: 85px;
+    margin-top: 180px;
+}
+
+.direction {
+height: 13.333333015441895px;
+width: 21.25px;
+border-radius: 0px;
+color:  #4CE0D7;
+margin-top: 25px;
+}
+.moonh4 {
+margin-top:23px;
+margin-left: 10px;    
+width: 215px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.24em;
+color: #4CE0D7;
+}
+
+.trending {
+width: 370px;
+height: 36px;
+margin-left: 226px;
+margin-top: 120px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #262626;
+}
+
+
+.bigdivtwo {
+display: flex;
+gap: 120px;
+}
+
+.suffer {
+position: relative;
+background-image: url(images/Sufferimg.png);
+background-repeat: no-repeat;
+height: 670px;
+width: 559px;
+margin-left:220px;
+top:60px;
+border-radius:20px;
+background-color:#FFFFFF;
+box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.calm {
+margin-top: 60px;    
+position: relative;
+background-image: url(images/calmimg.png);  
+background-repeat: no-repeat;  
+height: 670px;
+width: 559px;
+margin-left:60px;
+border-radius:20px;
+background-color:#FFFFFF;
+box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.lifestyle { 
+position: absolute;
+margin: 20px;
+width: 150.95px;
+height: 36.49px;
+}
+
+.summer {
+position: absolute;  
+margin:20px;  
+width: 150.95px;
+height: 36.49px;  
+}
+
+.glass2 {
+position: absolute;
+display: flex;
+gap: 60px;
+margin-top: 270px; 
+margin-left: 30px;
+}
+
+.moon2 {
+    position: absolute;
+    margin-top: 340px;
+    
+}
+
+.moontext2 {
+margin-left: 30px;
+position: absolute;    
+height: 74px;
+width: 421px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 39px;
+color: #262626;
+}
+
+.moonp2 {
+margin-top: 110px;
+padding-top: 20px;
+position: absolute;
+width: 464px;
+height: 98px;
+left: 153px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #262626;
+margin-left: -120px;
+}
+
+.moondiv2 {
+    margin-top: 250px;
+    margin-left:30px;
+}
