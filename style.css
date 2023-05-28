@@ -146,7 +146,7 @@ color: #FFFFFF;
   left: 169px;
 }
 .firs-section-content h1  {
-font-family: Poppins;
+font-family: 'Poppins';
 font-size: 46px;
 font-weight: 700;
 line-height: 69px;
@@ -636,7 +636,7 @@ height: 752px;
 width: 648px;
 left: 90px;
 top: 2784px;
-background: url(images/pexels-anna-1.png);
+background: url(images/pngpng.png);
 border-radius: 30px;
 background-repeat: no-repeat;
 }
@@ -693,7 +693,7 @@ height: 832px;
 width: 718px;
 left: auto;
 border-radius: 20px;
-background: url(images/pexels-evg-2.png);
+background: url(images/pngpng2.png);
 background-repeat: no-repeat;
 position: absolute;
 }
@@ -746,7 +746,7 @@ width: 580px;
 left: 103px;
 border-radius: 20px;
 left: auto;
-background: url(images/pexels-vinicius-3.png);
+background: url(images/pngpng3.png);
 background-repeat: no-repeat;
 position: absolute;
 }
