@@ -130,13 +130,12 @@ font-family:  'Poppins' sans-serif;
   
   .firs-section{
     background-image: url(images/pexels-andrea-piacquadio-994234\ 1\ \(2\).png);
-  
     background-repeat: no-repeat;
     background-size: cover;
     height: 603px;
-    width: 1439px;
+    width: 1500px;
     display: block;
-    margin-left: 120px;
+    margin-left: 140px;
     
     border-radius: 10px;
   }
@@ -147,12 +146,13 @@ font-family:  'Poppins' sans-serif;
     left: 169px;
   }
   .firs-section-content h1  {
-    font-family: Poppins;
+  font-family: Poppins;
   font-size: 46px;
   font-weight: 700;
   line-height: 69px;
   letter-spacing: 0em;
   text-align: left;
+color: #FFFFFF;
   
   font-family: Poppins;
   font-size: 46px;
