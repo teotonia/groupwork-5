@@ -9,6 +9,9 @@ header {
   padding: 51px 5px;
   
 }
+body{
+  background-color: #F5F5F5;
+}
 .column:hover, .column:active {  transform: translateY(-30px)}
 h1{
 font-family: 'absolute' sans-serif;}
