@@ -625,8 +625,8 @@ margin-left: -120px;
 
 .img3-1{
 height: 368px;
-width: 1204px;
-left: 170px;
+width: 1334px;
+left: 220px;
 top: 3000px;
 border-radius: 20px;
 box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
@@ -676,14 +676,14 @@ padding-top: 8px;
 height: 82px;
 width: 70px;
 bottom: 280px;
-left: 620px;
+left: 650px;
 border-radius: 60px;
 position: absolute;
 }
 .img3-2{
   height: 368px;
-  width: 1204px;
-left: 170px;
+  width: 1334px;
+left: 220px;
   top: 3420px;
   border-radius: 20px;
   position: absolute;
@@ -734,8 +734,8 @@ transform: matrix(1, -0.01, 0.01, 1, 0, 0);
 
 .img3-3{
   height: 367px;
-width: 1204px;
-left: 170px;
+width: 1334px;
+left: 220px;
 top: 3840px;
 border-radius: 20px;
 position: absolute;
@@ -788,7 +788,7 @@ position: absolute;
   height: 82px;
 width: 70px;
 bottom: 280px;
-left: 620px;
+left: 650px;
 border-radius: 60px;
 position: absolute;
 }
@@ -796,7 +796,7 @@ position: absolute;
   height: 82px;
   width: 70px;
   bottom: 280px;
-  left: 620px;
+  left: 650px;
   border-radius: 60px;
   position: absolute;
 }
@@ -804,7 +804,7 @@ position: absolute;
 height: 21px;
 width: 168px;
 top: 3025px;
-margin-left: 880px;
+margin-left: 980px;
 border-radius: 'undefinedpx';
 position: absolute;
 }
@@ -841,7 +841,7 @@ position: absolute;
 .h3-1{
   height: 94px;
 width: 543px;
-left: 780px;
+left: 880px;
 top: 3100px;
 border-radius: 'undefinedpx';
 position: absolute;
@@ -849,7 +849,7 @@ position: absolute;
 .h-1{
   height: 94px;
   width: 543px;
-  left: 780px;
+  left: 880px;
   top: 3200px;
   position: absolute;
 }
@@ -865,14 +865,14 @@ color:#262626;
 .mo1{
   height: 100px;
   width: 543px;
-  left: 780px;
+  left: 880px;
   top: 3320px;
   position: absolute;
 }
 .mo1t{
   height: 100px;
   width: 543px;
-  left: 830px;
+  left: 930px;
   top: 3303px;
   position: absolute;
 }
@@ -889,7 +889,7 @@ color:  #4CE0D7;
   height: 21px;
 width: 168px;
 top: 3450px;
-margin-left: 880px;
+margin-left: 980px;
 border-radius: 'undefinedpx';
 position: absolute;
 }
@@ -926,14 +926,14 @@ position: absolute;
 .h3-2{
   height: 94px;
   width: 400px;
-  left: 780px;
+  left: 880px;
   top: 3520px;
   position: absolute;
 }
 .h-2{
   height: 94px;
   width: 543px;
-  left: 780px;
+  left: 880px;
   top: 3630px;
   position: absolute;
 }
@@ -949,14 +949,14 @@ position: absolute;
 .mo2{
   height: 100px;
   width: 543px;
-  left: 780px;
+  left: 880px;
   top: 3745px;
   position: absolute;
 }
 .mo2t{
   height: 100px;
   width: 543px;
-  left: 830px;
+  left: 930px;
   top: 3728px;
   position: absolute;
   font-family: 'Poppins';
@@ -971,7 +971,7 @@ position: absolute;
   height: 21px;
   width: 168px;
   top: 3870px;
-  margin-left: 880px;
+  margin-left: 980px;
   border-radius: 'undefinedpx';
   position: absolute;
 }
@@ -1008,14 +1008,14 @@ position: absolute;
 .h3-3{
   height: 94px;
   width: 400px;
-  left: 780px;
+  left: 880px;
   top: 3933px;
   position: absolute;
 }
 .h-3{
   height: 94px;
   width: 543px;
-  left: 780px;
+  left: 880px;
   top: 4030px;
   position: absolute;
 }
@@ -1031,14 +1031,14 @@ position: absolute;
 .mo3{
   height: 100px;
   width: 543px;
-  left: 780px;
+  left: 880px;
   top: 4167px;
   position: absolute;
 }
 .mo3t h4{
   height: 100px;
   width: 543px;
-  left: 830px;
+  left: 930px;
   top: 4150px;
   position: absolute;
   font-family: 'Poppins';
@@ -1049,3 +1049,4 @@ position: absolute;
   text-align: left;
   color:  #4CE0D7;
 }
+
