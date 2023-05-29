@@ -110,6 +110,8 @@ font-family:  'Poppins' sans-serif;
   border-radius: 40px ;
   border: #4CE0D7; 
 }
+
+
 .search button{
   height: 47px;
   width: 47px;
@@ -120,15 +122,29 @@ font-family:  'Poppins' sans-serif;
 }
 .none {
   display: none;
-  width: 50px;
-  color: aliceblue;
-  border: none;
+  
+  
+}
+.none input{
+  width: 90px;
+  height: 35px;
+  border: #4CE0D7 ;
+  
+  border-radius: 40px;
 }
 a.ex1:hover, a.ex1:active { background: #4CE0D7 ; border-radius: 20px;}
+
 button.ex2:hover, button.ex2:active { border: solid 2px #4CE0D7 ; background: white; }
+
 .photo:hover + .none {
-  display: block ; border: #18272F solid  ;
+  display: block ; border-bottom: #4CE0D7 solid 4px ; border-radius: 10px;
+  
+  
 }
+.photo:hover {
+  display: none; transition: 10s;
+}
+
 
 /*  header end  დასასრული  */
 p{
@@ -1125,3 +1141,4 @@ border: 1px solid #BCBCBC;
   line-height: 21px;
   color: #262626;
 }
+.column:hover { border: solid 2px #4CE0D7 ; background: #FFFFF0; }
