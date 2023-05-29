@@ -1080,18 +1080,16 @@ font-size: 26px;
 font-weight: 700;
 line-height: 39px;
 letter-spacing: 0em;
-margin-top:-60px;
-text-align: left;
-
-
+padding-top: 85px;
 }
+
 .icons{
   display: flex;
   flex-direction: row;
   position: relative;
   left: 1000px;
   gap: 15px;
-  bottom: 55px;
+  top: -50px;
 }
 .line{
   padding-bottom: 34px;
@@ -1100,8 +1098,11 @@ text-align: left;
 }
 
 .footerh {
-padding-top: 100px;
-margin-left: -700px;
+  position: absolute;
+margin-left: 150px;
+  width: 234px;
+  height: 49px;
+ top: 25%;
 }
 
 .hrhr {
